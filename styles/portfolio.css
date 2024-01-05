@@ -10,7 +10,7 @@
 .btn-primary{
     border: 0;
     border-radius: 5px;
-    background: #FD6E0A;
+    background-color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
     color: white;
@@ -43,4 +43,54 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
+}
+
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 0 150px;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 550px;
+}
+.banner .profile-pic{
+    width: 580px;
+    height: 670px;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner-name{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-p{
+    margin-bottom: 50px;
+}
+
+.banner-contact{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 35px;
 }
