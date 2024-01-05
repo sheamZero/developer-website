@@ -1,0 +1,46 @@
+/* shared style */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 16px 35px;
+}
+
+
+/* navbar related style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
