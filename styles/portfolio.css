@@ -172,6 +172,7 @@ main {
 
 .section-continer {
     display: flex;
+    gap: 20px;
     justify-content: space-around;
     margin-top: 20px;
 }
@@ -182,6 +183,7 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 35px 30px 30px 33px;
+    margin-bottom: 150px;
 }
 
 .skil-icon {
@@ -200,8 +202,56 @@ main {
 
 .skil-description {
     width: 200px;
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+}
+
+/* Resume section */
+
+.resume-continer{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-coloum {
+    width: 510px;
+}
+
+.coloum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.item-institiute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download-cv{
+    margin: 50px 0;
+    margin-left: 445px;
+    
+}
+
+hr {
+    margin: 30px 0;
 }
